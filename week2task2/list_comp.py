@@ -5,6 +5,6 @@ if __name__ == '__main__':
     n = int(input())
     
     #Solve_here
-    arr = [[X, Y, Z] for X in range(x+1) for Y in range(y+1) for Z in range(z+1) if X +         Y + Z !=  n]
+    my_arr = [[X, Y, Z] for X in range(x+1) for Y in range(y+1) for Z in range(z+1) if X +         Y + Z !=  n]
     # My_output
-    print(arr)
+    print(my_arr)
