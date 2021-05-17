@@ -1,4 +1,3 @@
-zeros and ones
 import numpy
 dims = [int(x) for x in input().strip().split()]
 
